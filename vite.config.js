@@ -1,7 +1,5 @@
-import { defineConfig } from "vite";
-
-export default defineConfig({
+module.exports = {
   preview: {
     allowedHosts: ["agileflow-pro-main.onrender.com"],
   },
-});
+};
